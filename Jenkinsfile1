@@ -1,8 +1,8 @@
 pipeline{
     agent any
-options {
-  timestamps
-}
+    options {
+       timestamps
+    }
     stages{
         stage("A"){
             steps{
